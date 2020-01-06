@@ -38,7 +38,7 @@ module Tidal::API
     getter audio_quality : String
     
     @[JSON::Field(key: "surroundTypes")]
-    getter surround_types : Array(String)
+    getter surround_types : Array(String)?
     getter artist : NamedTuple(id: Int32, name: String, type: String)
     getter artists : Array(NamedTuple(id: Int32, name: String, type: String))
     getter album : NamedTuple(id: Int32, title: String, cover: String)

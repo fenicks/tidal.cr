@@ -10,7 +10,7 @@ module Tidal::API
       "--no-audio-display",
       "--really-quiet"
     ]
-    
+
     getter? playing : Bool
 
     getter socket : UNIXSocket
